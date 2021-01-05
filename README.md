@@ -1,2 +1,1 @@
-# seandon.io
-seandon.io personal portfolio
+# seandon.io 
