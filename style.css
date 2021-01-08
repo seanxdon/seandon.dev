@@ -143,9 +143,10 @@ body {
 	object-fit: cover;
 	transition: 0.5s;
 }
-.footer {
+
+.header-nav {
 	position: absolute;
-	bottom: 0;
+	bottom: 90%;
 	left: 0;
 	width: 100%;
 	padding-left: 80%;
@@ -153,6 +154,21 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+.header-links {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding-left: 85%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.icon-links {
+	max-width: 50px;
 }
 .sci {
 	position: relative;
@@ -167,11 +183,5 @@ body {
 	margin-right: 20px;
 }
 .sci li a:hover {
-	color: #fff;
-}
-.copyrightText {
-	color: #fff;
-}
-.copyrightText:hover {
 	color: #fff;
 }
