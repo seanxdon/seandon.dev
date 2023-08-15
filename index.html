@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -6,11 +7,8 @@
 		<title>seandon.io</title>
 	</head>
 	<body>
-		<!------------------ HEADER SECTION ------------>
-
 		<section class="header-section">
-			<h2 class="header-title">seandon.io</h2>
-
+			<h2 class="header-title">seandon.dev</h2>
 			<video
 				class="header-video"
 				src="imgs/smoke.mp4"
@@ -21,16 +19,8 @@
 			></video>
 			<div class="header-nav">
 				<ul class="sci">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</div>
-			<div class="header-links">
-				<ul class="sci">
 					<li>
-						<a href="#"
+						<a href="https://github.com/seanxdon"
 							><img
 								class="icon-links"
 								src="imgs/icons8-github-96.png"
@@ -38,80 +28,23 @@
 						/></a>
 					</li>
 					<li>
-						<a href="#"
+						<a href="https://www.linkedin.com/in/seanmcdaniel2/"
 							><img
 								class="icon-links"
 								src="imgs/icons8-linkedin-100.png"
-								alt=""
+								alt="LinkedIn"
 						/></a>
 					</li>
 					<li>
-						<a href="#"
+						<a href="./assets/Sean McDaniel Resume 2023.pdf"
 							><img
 								class="icon-links"
 								src="imgs/icons8-shared-document-96.png"
-								alt=""
+								alt="Resume"
 						/></a>
 					</li>
 				</ul>
 			</div>
 		</section>
-
-		<!------------------ ABOUT SECTION ------------>
-
-		<section class="about-section">
-			<div class="about-container-1">
-				<h1>Hi!</h1>
-				<h2>My Name is Sean McDaniel,</h2>
-				<p>
-					Ambitious developer with over four years of experience building
-					websites and three years of experience working professionally as a
-					front-end developer. Long Beach State graduate with a Bachelors of
-					Science in Information Systems, specializing in mobile and web based
-					applications. My passion is building user interfaces with bring the
-					quality of yesterday and the technology of today.
-				</p>
-			</div>
-			<div class="about-container-2">
-				<img class="cartoon" src="imgs/seanblue.png" alt="" />
-			</div>
-		</section>
-
-		<!------------------ ABOUT SECTION ------------>
-
-		<section class="portfolio">
-			<div class="container">
-				<div class="box">
-					<div class="imgBx">
-						<img src="imgs/img1.jpg" />
-					</div>
-				</div>
-				<div class="box">
-					<div class="imgBx">
-						<img src="imgs/img2.jpg" />
-					</div>
-				</div>
-				<div class="box">
-					<div class="imgBx">
-						<img src="imgs/img3.jpg" />
-					</div>
-				</div>
-				<div class="box">
-					<div class="imgBx">
-						<img src="imgs/img4.jpg" />
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- POP UP MODAL-->
-		<script>
-			let imgBx = document.querySelectorAll('.imgBx');
-			imgBx.forEach((popup) =>
-				popup.addEventListener('click', () => {
-					popup.classList.toggle('active');
-				})
-			);
-		</script>
 	</body>
 </html>
