@@ -1,3 +1,6 @@
-# seandon.io 
+# seandon.dev
 
-Personal Portfolio - 2021
+Personal Portfolio
+- GitHub
+- LinkedIn
+- Resume
